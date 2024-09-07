@@ -82,3 +82,8 @@ button {
 button:hover {
     background-color: #555;
 }
+
+img { display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
