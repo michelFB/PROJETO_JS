@@ -1,5 +1,5 @@
 // Tipo string
-var x ='bob';
+var person ='olá Terráqueo';
 // Um array
 let animais = ['dog', 'cat','bird',24,35]
 const button = document.getElementById("sendButton");
@@ -12,8 +12,8 @@ const elementoDuploClique = document.getElementById('meuElementoDuploClique');
 // Adiciona um evento de clique ao botão, pega elemento pelo ID
 // ouvintes de eventos em JavaScript addEventListener click
 button?.addEventListener("click", () => {
-    alert(`Mensagem enviada!, ${x}!`);
-    mensagem_tela.innerHTML = `Seja Bem-Vindo, ${x}`;
+    alert(`Mensagem enviada!, ${person}!`);
+    mensagem_tela.innerHTML = `Seja Bem-Vindo, ${person}`;
 });
 // addEventListener mouseover
 elemento.addEventListener('mouseover', function() {
